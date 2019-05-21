@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../app.js"></script>
+    </head>
+    <body>
+        <h1>Contact</h1>
+        <div class = "container">
+           <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="your name..">
+    
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="your last name..">
+    
+                <label for="Date">DOB</label>
+                <input type="Date" id="dob" name="dateofbirth" placeholder="your date of birth..">
+                <!-- <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="write something..">
+                </textarea> -->
+    
+                <input type ="button" value="submit" onclick="displayWithPromise()">
+            </div>
+        </div>
+    </body>
+</html>
