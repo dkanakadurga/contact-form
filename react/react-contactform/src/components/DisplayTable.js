@@ -4,7 +4,7 @@ import ReactTable from "react-table";
 import "react-table/react-table.css";
 //import styles from '../../public/style.css';
 import Table from 'react-bootstrap/Table';
-const Shuffle = window.Shuffle;
+//const Shuffle = window.Shuffle;
 
 
 
@@ -44,10 +44,10 @@ componentDidMount() {
                  console.log(err);
             });
 
-       this.shuffle = new Shuffle(this.element.current, {
-           itemSelector: '.empTable',
-           sizer: this.sizer.current,
-       });
+    //    this.shuffle = new Shuffle(this.element.current, {
+    //        itemSelector: '.empTable',
+    //        sizer: this.sizer.current,
+    //    });
 
 }
 compareBy(key) {
