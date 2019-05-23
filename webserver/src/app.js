@@ -77,7 +77,7 @@ app.post('/contact', (req, res) => {
 app.post('/employee', (req, res) => {
     if(req.body.employeename === undefined){
         res.json({"sucess" : false,
-    "errorMsg" : "employeename is missing"})
+    "errorMsg" : "employeename missing"})
         
     }else if(req.body.lastname === undefined) {
         res.json({"sucess" : false,
